@@ -46,7 +46,7 @@ body {
 
 a {
   text-decoration: none;
-  visibility: hidden;
+  /* visibility: hidden; */
   cursor: pointer;
   color: var(--an-text-primary) !important;
 }

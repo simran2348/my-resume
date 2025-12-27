@@ -81,20 +81,31 @@
           </div>
         </section>
         <section class="d-flex flex-direction-column mt-30">
-          <span class="font-18 font-weight-500">SKILLS</span>
+          <span class="font-18 font-weight-500">
+            LEADERSHIP & CONTRIBUTIONS
+          </span>
           <span class="h-divider mt-5" />
-          <div class="d-flex flex-direction-column">
-            <ul class="mv-10 ph-25 font-12">
-              <li v-for="skill in Object.keys(skills)">
-                <span class="font-bold">{{ skill }}:</span>
-                {{ skills[skill].join(", ") }}
-              </li>
-            </ul>
-          </div>
+
+          <ul class="mv-10 ph-25 font-12">
+            <li v-for="(point, index) in leadershipHighlights" :key="index">
+              {{ point }}
+            </li>
+          </ul>
         </section>
       </div>
       <div class="resume-page">
-        <section class="d-flex flex-direction-column">
+        <section class="d-flex flex-direction-column mt-30">
+          <span class="font-18 font-weight-500">SKILLS</span>
+          <span class="h-divider mt-5" />
+
+          <ul class="mv-10 ph-25 font-12">
+            <li v-for="(group, index) in skills" :key="index">
+              <!-- <span class="font-bold">{{ group.label }}:</span> -->
+              {{ group.items.join(", ") }}
+            </li>
+          </ul>
+        </section>
+        <section class="d-flex flex-direction-column mt-30">
           <span class="font-18">CERTIFICATIONS</span>
           <span class="h-divider mt-5" />
           <div class="d-flex flex-direction-column mt-10 gap-15">
@@ -137,6 +148,7 @@ import {
   skills,
   socials,
   summary,
+  leadershipHighlights,
 } from "./constant";
 
 import jsPDF from "jspdf";
@@ -241,9 +253,9 @@ const exportToPDF = async () => {
   doc.setPage(1);
   doc.setTextColor(0, 0, 0);
   doc.setFontSize(16);
-  doc.textWithLink("simranjit-singh-87aa8b152", 553, 101.5, {
-    url: "https://www.linkedin.com/in/simranjit-singh-87aa8b152",
-  });
+  // doc.textWithLink("simranjit-singh-87aa8b152", 553, 101.5, {
+  //   url: "https://www.linkedin.com/in/simranjit-singh-87aa8b152",
+  // });
 
   doc.save("Simranjit_Singh_Resume.pdf");
 };

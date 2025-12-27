@@ -1,7 +1,7 @@
 export const name = "SIMRANJIT SINGH";
 
 export const summary =
-  "Strategic Packaged App Development Senior Analyst with 5 years of experience in UI development and CI/CD process optimization. Aiming to contribute as a Frontend Lead or Full Stack Specialist by driving innovation in UI/UX, mentoring teams, and building scalable UI and backend solutions.";
+  "Senior Frontend Engineer with 5+ years of experience building scalable React applications in enterprise and product environments. Strong expertise in JavaScript, React performance optimization, CI/CD automation, and frontend architecture. Proven ability to lead UI initiatives, mentor developers, improve code quality, and deliver reliable, high-impact user experiences. Seeking Senior or Lead Frontend roles with ownership and technical influence.";
 
 export const socials = [
   {
@@ -21,8 +21,8 @@ export const socials = [
   },
   {
     id: 4,
-    label: "simranjit-singh-87aa8b152",
-    link: "https://www.linkedin.com/in/simranjit-singh-87aa8b152",
+    label: "linkedin.com/in/simranjit097",
+    link: "linkedin.com/in/simranjit097",
   },
 ];
 
@@ -34,12 +34,12 @@ export const careerExperience = [
     location: "Mumbai, India",
     to: "Present",
     experience: [
-      "Contributed to the UI development team for the SmartScheduling project, managing and maintaining version control using Azure Repos, ensuring streamlined code commits and seamless code merging across multiple teams.",
-      "Spearheaded the creation and maintenance of build and deployment pipelines through Azure Pipelines, optimizing continuous integration/continuous delivery (CI/CD) processes for rapid, reliable, and automated software delivery.",
-      "Led multiple UI production deployments, ensuring the timely and efficient delivery of new features, bug fixes, and enhancements to production environments, with minimal downtime and maximum user satisfaction.",
-      "Managed post-production issues by identifying, prioritising, and resolving bugs and defects quickly, ensuring the continued stability of the project and high user satisfaction.",
-      "Led code review processes, ensuring adherence to high coding standards and best practices, and coordinated code merges to ensure seamless collaboration and maintain project integrity.",
-      "Collaborated with cross-functional teams to align on project requirements, deliverables, and timelines, and utilised Azure Boards to efficiently manage UI team sprints, task assignments, and progress tracking.",
+      "Led the redesign of a large-scale React frontend by introducing reusable components, reducing feature development effort and improving long-term maintainability.",
+      "Implemented CI/CD pipelines using Azure Pipelines, automating build, test, and deployment processes and significantly reducing manual release effort.",
+      "Owned multiple production React deployments, coordinating feature releases, bug fixes, and hot-fixes while ensuring minimal downtime for end users.",
+      "Improved application performance by implementing lazy loading, code splitting, and image optimisation, reducing First Contentful Paint to under 2 seconds on critical user flows.",
+      "Mentored junior developers through code reviews and architectural guidance, improving code quality, consistency, and adherence to React and JavaScript best practices.",
+      "Designed frontend architecture focusing on state management and component boundaries, while optimizing performance trade-offs using React to enhance scalability and maintain development velocity.",
     ],
   },
   {
@@ -49,34 +49,45 @@ export const careerExperience = [
     location: "Lucknow, India",
     to: "January, 2023",
     experience: [
-      "Engineered scalable and responsive web applications for Air Asia India’s B2C and B2B platforms using front-end technologies like React, Redux State Management, enhancing user experience and performance.",
-      "Created a bespoke calendar solution tailored to client specifications, achieving commendation from the delivery manager for exceptional feature quality using advanced API integration.",
-      "Partnered with Tata Digital team and co-created a customisable 'Admin Panel' solution for SSO clients, to enhance user interface adaptability using real-time CRUD features.",
-      "Implemented strategies to address production environment issues by interfacing with engineering and support teams, resulting in enhanced operational continuity with 99% uptime.",
+      "Built and maintained high-traffic B2C and B2B frontend applications using React and JavaScript, with a focus on performance, responsiveness, and long-term maintainability.",
+      "Designed and developed a custom calendar component with complex date logic and REST API integration, which was adopted across the project for its accuracy and usability.",
+      "Developed a configurable admin panel using React and Redux, enabling real-time CRUD operations and reducing manual operational effort for business users.",
+      "Investigated and fixed complex production UI issues using browser developer tools and React component analysis, maintaining consistent application reliability.",
+      "Collaborated with backend and product teams to deliver 5+ UI featuresquaterly while maintinging high code quality and performance standards.",
     ],
   },
 ];
 
-export const skills = {
-  Frontend: ["ReactJS", "Vue", "Next.js", "React Native", "HTML5", "CSS3"],
-  "Programming Languages": ["JavaScript (ES6+)"],
-  "UI Libraries & Frameworks": [
-    "Bootstrap",
-    "Material UI",
-    "Tailwind CSS",
-    "Primevue",
-  ],
-  "State Management": ["React Redux", "Redux Toolkit", "Pinia"],
-  Databases: ["MongoDB", "Firebase"],
-  "Version Control & DevOps": [
-    "Git",
-    "GitHub",
-    "Azure Repos",
-    "Azure Pipelines",
-  ],
-  "Hosting & Deployment Platforms": ["Netlify", "Vercel", "Heroku"],
-  "Tools & Utilities": ["Postman", "MongoDB Compass", "Visual Studio Code"],
-};
+export const skills = [
+  {
+    label: "Core",
+    items: [
+      "React",
+      "JavaScript (ES6+)",
+      "Frontend Architecture",
+      "Performance Optimization",
+    ],
+  },
+  {
+    label: "Frontend & State",
+    items: ["Redux", "Pinia", "HTML5", "CSS3"],
+  },
+  {
+    label: "Delivery & Tooling",
+    items: ["CI/CD (Azure Pipelines)", "Git", "Azure Repos"],
+  },
+  {
+    label: "Additional",
+    items: [
+      "Vue",
+      "React Native",
+      "Bootstrap",
+      "PrimeVue",
+      "MongoDB",
+      "Firebase",
+    ],
+  },
+];
 
 export const certificates = [
   {
@@ -103,6 +114,12 @@ export const certificates = [
     issuer: "Microsoft",
     year: "2021",
   },
+];
+
+export const leadershipHighlights = [
+  "Acted as a frontend point of contact for resolving production issues and coordinating hotfixes.",
+  "Led frontend code reviews and established React best practices, improving overall code consistency and quality.",
+  "Mentored junior developers through design discussions, debugging sessions, and pull request reviews.",
 ];
 
 export const academicsJourney = [
