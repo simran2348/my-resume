@@ -81,31 +81,18 @@
           </div>
         </section>
         <section class="d-flex flex-direction-column mt-30">
-          <span class="font-18 font-weight-500">
-            LEADERSHIP & CONTRIBUTIONS
-          </span>
-          <span class="h-divider mt-5" />
-
-          <ul class="mv-10 ph-25 font-12">
-            <li v-for="(point, index) in leadershipHighlights" :key="index">
-              {{ point }}
-            </li>
-          </ul>
-        </section>
-      </div>
-      <div class="resume-page">
-        <section class="d-flex flex-direction-column mt-30">
           <span class="font-18 font-weight-500">SKILLS</span>
           <span class="h-divider mt-5" />
 
           <ul class="mv-10 ph-25 font-12">
             <li v-for="(group, index) in skills" :key="index">
-              <!-- <span class="font-bold">{{ group.label }}:</span> -->
               {{ group.items.join(", ") }}
             </li>
           </ul>
         </section>
-        <section class="d-flex flex-direction-column mt-30">
+      </div>
+      <div class="resume-page">
+        <section class="d-flex flex-direction-column">
           <span class="font-18">CERTIFICATIONS</span>
           <span class="h-divider mt-5" />
           <div class="d-flex flex-direction-column mt-10 gap-15">
@@ -148,7 +135,6 @@ import {
   skills,
   socials,
   summary,
-  leadershipHighlights,
 } from "./constant";
 
 import jsPDF from "jspdf";

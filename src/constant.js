@@ -1,7 +1,7 @@
 export const name = "SIMRANJIT SINGH";
 
 export const summary =
-  "Senior Frontend Engineer with 5+ years of experience building scalable React applications in enterprise and product environments. Strong expertise in JavaScript, React performance optimization, CI/CD automation, and frontend architecture. Proven ability to lead UI initiatives, mentor developers, improve code quality, and deliver reliable, high-impact user experiences. Seeking Senior or Lead Frontend roles with ownership and technical influence.";
+  "Senior Frontend Engineer with 5+ years of experience building scalable React applications in enterprise and product environments. Strong expertise in JavaScript, React performance optimization, CI/CD automation, and frontend architecture. Proven ability to lead UI initiatives, mentor developers, improve code quality, and deliver reliable, high impact user experiences. Seeking Senior or Lead Frontend roles with ownership and technical influence.";
 
 export const socials = [
   {
@@ -34,12 +34,13 @@ export const careerExperience = [
     location: "Mumbai, India",
     to: "Present",
     experience: [
-      "Led the redesign of a large-scale React frontend by introducing reusable components, reducing feature development effort and improving long-term maintainability.",
-      "Implemented CI/CD pipelines using Azure Pipelines, automating build, test, and deployment processes and significantly reducing manual release effort.",
-      "Owned multiple production React deployments, coordinating feature releases, bug fixes, and hot-fixes while ensuring minimal downtime for end users.",
-      "Improved application performance by implementing lazy loading, code splitting, and image optimisation, reducing First Contentful Paint to under 2 seconds on critical user flows.",
-      "Mentored junior developers through code reviews and architectural guidance, improving code quality, consistency, and adherence to React and JavaScript best practices.",
-      "Designed frontend architecture focusing on state management and component boundaries, while optimizing performance trade-offs using React to enhance scalability and maintain development velocity.",
+      "Led a team of 3 frontend developers in building and maintaining an interview scheduling dashboard, owning end to end frontend development, production bug fixes, and deployments.",
+      "Spearheaded the redesign of 6 key components to the interview scheduling dashboard using React, resulting in a 70% decrease in user reported bugs within the first month.",
+      "Owned more than 10 production React deployments, coordinating feature releases, bug fixes, and hotfixes while ensuring minimal downtime for end users.",
+      "Independently delivered 2 prompt engineered, AI powered frontend applications, owning UI architecture, state management, and AI API integration end to end, and earning repeated recognition from leads and management.",
+      "Established comprehensive monitoring and alerting for frontend applications using Datadog, reducing the mean time to resolution for production issues by 40%.",
+      "Implemented CI/CD pipelines using Azure DevOps to automate build and deployment processes, reducing manual release effort by 80%.",
+      "Mentored 2 junior developers through code reviews and architectural guidance, improving code quality, consistency, and adherence to React and JavaScript best practices.",
     ],
   },
   {
@@ -49,11 +50,11 @@ export const careerExperience = [
     location: "Lucknow, India",
     to: "January, 2023",
     experience: [
-      "Built and maintained high-traffic B2C and B2B frontend applications using React and JavaScript, with a focus on performance, responsiveness, and long-term maintainability.",
+      "Built and maintained high traffic B2C and B2B frontend applications using React and JavaScript, with a focus on performance, responsiveness, and long term maintainability.",
       "Designed and developed a custom calendar component with complex date logic and REST API integration, which was adopted across the project for its accuracy and usability.",
-      "Developed a configurable admin panel using React and Redux, enabling real-time CRUD operations and reducing manual operational effort for business users.",
+      "Developed a configurable admin panel using React and Redux, enabling real time CRUD operations and reducing manual operational effort for business users.",
       "Investigated and fixed complex production UI issues using browser developer tools and React component analysis, maintaining consistent application reliability.",
-      "Collaborated with backend and product teams to deliver 5+ UI featuresquaterly while maintinging high code quality and performance standards.",
+      "Collaborated with backend and product teams to deliver more than 5 UI features while maintaining high code quality and performance standards.",
     ],
   },
 ];
@@ -114,12 +115,6 @@ export const certificates = [
     issuer: "Microsoft",
     year: "2021",
   },
-];
-
-export const leadershipHighlights = [
-  "Acted as a frontend point of contact for resolving production issues and coordinating hotfixes.",
-  "Led frontend code reviews and established React best practices, improving overall code consistency and quality.",
-  "Mentored junior developers through design discussions, debugging sessions, and pull request reviews.",
 ];
 
 export const academicsJourney = [
